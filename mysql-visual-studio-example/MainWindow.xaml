@@ -1,0 +1,14 @@
+﻿<Window x:Class="mysql_visual_studio_example.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mysql_visual_studio_example"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="261" Width="539" FontFamily="Verdana" ResizeMode="CanMinimize">
+    <Grid>
+        <Button x:Name="testConnectionButton" Content="Test Connection" HorizontalAlignment="Left" Margin="45,32,0,0" VerticalAlignment="Top" Width="431" Height="125" Cursor="Hand" FontWeight="Bold" FontSize="18" Click="testConnectionButton_Click"/>
+        <Label x:Name="resultsLabel" Content="Result: N/A" HorizontalAlignment="Left" Margin="41,174,0,0" VerticalAlignment="Top" FontSize="16"/>
+
+    </Grid>
+</Window>
