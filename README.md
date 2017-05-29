@@ -3,6 +3,8 @@ An example of how to connect to a MySQL Database using Visual Studio.
 
 The code in this repository that involves interacting with a database is found at [mysql-visual-studio-example/MainWindow.xaml.cs](https://github.com/UWO-WebDev-SE/mysql-visual-studio-example/blob/master/mysql-visual-studio-example/MainWindow.xaml.cs).
 
+Please follow the [References Quick Guide](https://github.com/UWO-WebDev-SE/mysql-visual-studio-example/blob/master/References%20Quick%20Guide.pdf) to use the [MySQL libraries](https://github.com/UWO-WebDev-SE/mysql-visual-studio-example/tree/master/MySQL%20Libraries) in your project. If you do not do this step, you will not be able to import the necessary classes to interact with your MySQL database.
+
 ## Some Notes on Connection Strings
 Connection strings tell MySQL how to reach your database. The sample format used in this repository is:
 ```
